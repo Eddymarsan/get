@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eddy Marsan's portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/9783420f35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Eddy marsan.jpg" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-x" onclick="closemenu"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Eddy</span><br>Marsan from kenya</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/img2.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                     <p>Life is still sweet no matter what happen, people will tries to pull you back but just try to do your best since all
+                        shall be well. As a software engineer innovation and invention shall be the power to sucess.
+                     </p>
+                     <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Bulding Android/IOS app</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>UI/UX Design Training at UEAB </li>
+                            <li><span>2022 - 2023</span><br>UI/UX Degin executive at Chuka College </li>
+                            <li><span>2021 - 2022</span><br>Internship at Software eCommerce </li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>UI/UX Design Training at UEAB </li>
+                            <li><span>2020</span><br>BBA from UEAB</li>
+                            <li><span>2019</span><br>Diploma from Chuka College</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>This is the Development of front-end attribute of a website using HTML,CSS and JavaScript pure which satisfied the user needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>This is the Development of phone application using Java which satisfied the user needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>This is the Development of graphic design which are in form of graphic using UI/UX which satisfied the user needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img7.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connect you with people around the World. So download it from the play store.</p>
+                        <a href="#">link icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img8.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app connect you with people around the World. So download it from the play store.</p>
+                        <a href="#">link icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img9.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This app connect you with people around the World. So download it from the play store.</p>
+                        <a href="#">link icon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i> omolloedwin87@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 0798720144</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="btn btn2">Download CV</div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <h3>LEAVE A COMMENT</h3>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@copyright. This website is created by Eddy Marsan<i class="fa-solid fa-heart"></i></p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        sidemenu.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(sidemenu.style.maxHeight === "0px")
+        {
+            sidemenu.style.maxHeight = "300px";
+        }
+        else{
+            sidemenu.style.maxHeight = "0px";
+        }
+        }
+        
+    </script>
+</body>
+</html>
